@@ -116,7 +116,6 @@ telco_customer_churn/
 ├── 03_modeling_pipeline.ipynb
 ├── 04_model_evalution.ipynb
 ├── outputs/
-│   ├── churn_pipeline.pkl
 │   ├── churn_predictions.csv
 │   ├── confusion_matrix.csv
 │   └── feature_importance.csv
