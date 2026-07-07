@@ -107,18 +107,25 @@ A 3-page interactive dashboard built from the model's output:
 ## Project Structure
 
 ```
-telco_customer_churn/
+Customer-Churn-Prediction/
+│
 ├── data/
-│   ├── raw/                     # original dataset
-│   └── processed/                # cleaned data + train/test splits
-├── 01_eda.ipynb
-├── 02_Feature_engineering.ipynb
-├── 03_modeling_pipeline.ipynb
-├── 04_model_evalution.ipynb
+│   └── telco_customer_churn.csv
+│
+├── notebooks/
+│   ├── 01_eda.ipynb
+│   ├── 02_feature_engineering.ipynb
+│   ├── 03_modeling_pipeline.ipynb
+│   └── 04_model_evaluation.ipynb
+│
 ├── outputs/
+│   ├── churn_pipeline.pkl
 │   ├── churn_predictions.csv
 │   ├── confusion_matrix.csv
 │   └── feature_importance.csv
-├── telco_customer_churn.pbix
-└── README.md
-```
+│
+├── powerbi/
+│   └── telco_customer_churn.pbix
+│
+├── README.md
+└── requirements.txt
